@@ -1,0 +1,48 @@
+/* ----------  Game Board  ---------- */
+.root {
+    -fx-background-color: linear-gradient(to bottom, #004080, #001F3F);
+    -fx-padding: 20;
+}
+
+.grid {
+    -fx-hgap: 8;
+    -fx-vgap: 8;
+    -fx-alignment: center;
+}
+
+/* Each circle slot */
+.slot {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 6, 0, 2, 2);
+    -fx-border-color: #002244;
+    -fx-border-width: 1;
+}
+
+/* Reset button */
+.button {
+    -fx-font-size: 16px;
+    -fx-background-radius: 25;
+    -fx-background-color: linear-gradient(to bottom, #FFD700, #E6B800);
+    -fx-text-fill: #000000;
+    -fx-padding: 8 20 8 20;
+}
+.button:hover {
+    -fx-background-color: linear-gradient(to bottom, #FFE34C, #FFD000);
+}
+.label {
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.6), 3, 0, 1, 1);
+}
+.root {
+    -fx-background-color: linear-gradient(to bottom, #004080, #001a33);
+}
+
+.button {
+    -fx-font-weight: bold;
+    -fx-background-radius: 8;
+}
+
+.label {
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.6), 3, 0, 1, 1);
+}
+
